@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sraddha Kanuparthy — Computer Science Student | Java & AI Enthusiast. Portfolio showcasing projects, skills, and experience." />
+  <title>Sraddha Kanuparthy | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true">
+    <div class="bg-mesh"></div>
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-orb bg-orb-3"></div>
+    <div class="bg-orb bg-orb-4"></div>
+    <div class="bg-orb bg-orb-5"></div>
+    <div class="bg-beam bg-beam-1"></div>
+    <div class="bg-beam bg-beam-2"></div>
+    <div class="bg-beam bg-beam-3"></div>
+    <div class="bg-grid"></div>
+    <div class="bg-dots"></div>
+    <div class="bg-particles">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="bg-vignette"></div>
+    <div class="bg-scanline"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>SK<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <div class="hero-gradient"></div>
+        <div class="hero-shine"></div>
+        <div class="hero-rings"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-particles" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="floating-icons" aria-hidden="true">
+          <i class="fab fa-java float-icon" style="--delay: 0s; --x: 10%; --y: 20%"></i>
+          <i class="fab fa-python float-icon" style="--delay: 1s; --x: 85%; --y: 15%"></i>
+          <i class="fab fa-js float-icon" style="--delay: 2s; --x: 75%; --y: 70%"></i>
+          <a href="https://www.linkedin.com/in/sraddha-kanuparthy-27b905382/" class="fab fa-linkedin-in float-icon float-icon-link" style="--delay: 0.5s; --x: 15%; --y: 75%" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"></a>
+          <i class="fas fa-code float-icon" style="--delay: 1.5s; --x: 50%; --y: 10%"></i>
+          <i class="fas fa-brain float-icon" style="--delay: 2.5s; --x: 90%; --y: 45%"></i>
+          <i class="fas fa-shield-halved float-icon" style="--delay: 3s; --x: 5%; --y: 50%"></i>
+        </div>
+      </div>
+      <div class="hero-content container">
+        <div class="hero-layout">
+          <div class="hero-text">
+            <p class="hero-greeting reveal">Hello, I'm</p>
+            <h1 class="hero-name reveal">Sraddha Kanuparthy</h1>
+            <p class="hero-tagline reveal">
+              <span class="tagline-highlight">Computer Science Student</span>
+              <span class="tagline-divider">|</span>
+              Java & AI Enthusiast
+            </p>
+            <p class="hero-intro reveal">
+              Passionate Computer Science student interested in software development, AI/ML,
+              cybersecurity, and web technologies. I enjoy building creative projects and
+              continuously improving my technical and problem-solving skills.
+            </p>
+            <div class="hero-buttons reveal">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-folder-open"></i> View Projects
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fas fa-envelope"></i> Contact Me
+              </a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper reveal">
+            <div class="hero-image-frame">
+              <div class="hero-image-glow"></div>
+   <img
+  src="images/profile.png"
+  alt="Sraddha Kanuparthy — Computer Science Student"
+  class="hero-photo"
+  width="380"
+  height="480"
+/>
+              <span class="hero-photo-badge">
+                <i class="fas fa-graduation-cap"></i> Computer Science Student
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll reveal">
+          <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">// about</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-layout reveal">
+          <div class="about-main glass">
+            <div class="about-status">
+              <span class="status-dot"></span>
+              <span>open to internships &amp; collabs</span>
+            </div>
+            <p class="about-vibe">cs student · builder · problem solver ✨</p>
+            <p class="about-bio">
+              Pursuing <strong>B.Tech in Computer Science and Engineering</strong> at Geethanjali
+              College of Engineering and Technology. Into Java, AI/ML, cybersecurity, and web dev —
+              basically living in VS Code and turning ideas into real projects.
+            </p>
+            <p class="about-bio-sub">
+              Eager for industry experience, love hackathons, and always down to learn something new.
+              Lowkey obsessed with clean code and high-key passionate about tech that actually helps people.
+            </p>
+            <div class="about-chips">
+              <span class="genz-chip">☕ coffee &gt; sleep</span>
+              <span class="genz-chip">🤖 AI curious</span>
+              <span class="genz-chip">🔐 cybersec fan</span>
+              <span class="genz-chip">💻 code daily</span>
+              <span class="genz-chip">🚀 ship it</span>
+              <span class="genz-chip">📹 tech vlogs</span>
+            </div>
+          </div>
+
+          <div class="about-terminal glass">
+            <div class="terminal-bar">
+              <span class="terminal-dot red"></span>
+              <span class="terminal-dot yellow"></span>
+              <span class="terminal-dot green"></span>
+              <span class="terminal-title">sraddha@portfolio ~</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="t-prompt">$</span> whoami</p>
+              <p class="t-out">→ Sraddha Kanuparthy</p>
+              <p><span class="t-prompt">$</span> status</p>
+              <p class="t-out">→ 2nd year CSE @ GCET</p>
+              <p><span class="t-prompt">$</span> currently.vibing</p>
+              <p class="t-out">→ Java, Python, AI, Web</p>
+              <p><span class="t-prompt">$</span> mood</p>
+              <p class="t-out t-accent">→ building cool stuff 🛠️</p>
+              <p class="t-cursor">_</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-stats reveal">
+          <div class="stat-item">
+            <span class="stat-emoji">🎓</span>
+            <span class="stat-number">2nd</span>
+            <span class="stat-label">Year CSE</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-emoji">📁</span>
+            <span class="stat-number">4+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-emoji">🏅</span>
+            <span class="stat-number">6+</span>
+            <span class="stat-label">Certs</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-emoji">🔥</span>
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">// skills</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">proficiency levels — all above 70%</p>
+        </div>
+        <div class="skills-panel glass reveal">
+          <div class="skills-matrix">
+            <div class="skill-group">
+              <h3 class="skill-group-title"><i class="fas fa-code"></i> Programming</h3>
+              <div class="skill-row" data-level="90"><span class="skill-row-icon"><i class="fab fa-java"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>Java</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+              <div class="skill-row" data-level="85"><span class="skill-row-icon"><i class="fab fa-python"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>Python</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+              <div class="skill-row" data-level="80"><span class="skill-row-icon"><i class="fas fa-terminal"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>C</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+            </div>
+            <div class="skill-group">
+              <h3 class="skill-group-title"><i class="fas fa-globe"></i> Web Dev</h3>
+              <div class="skill-row" data-level="85"><span class="skill-row-icon"><i class="fab fa-html5"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>HTML</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+              <div class="skill-row" data-level="80"><span class="skill-row-icon"><i class="fab fa-css3-alt"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>CSS</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+              <div class="skill-row" data-level="78"><span class="skill-row-icon"><i class="fab fa-js"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>JavaScript</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+            </div>
+            <div class="skill-group">
+              <h3 class="skill-group-title"><i class="fas fa-toolbox"></i> Tools</h3>
+              <div class="skill-row" data-level="80"><span class="skill-row-icon"><i class="fab fa-git-alt"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>Git</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+              <div class="skill-row" data-level="80"><span class="skill-row-icon"><i class="fab fa-github"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>GitHub</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+              <div class="skill-row" data-level="90"><span class="skill-row-icon"><i class="fas fa-code"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>VS Code</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+            </div>
+            <div class="skill-group">
+              <h3 class="skill-group-title"><i class="fas fa-sitemap"></i> Core</h3>
+              <div class="skill-row" data-level="80"><span class="skill-row-icon"><i class="fas fa-database"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>Data Structures</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+              <div class="skill-row" data-level="85"><span class="skill-row-icon"><i class="fas fa-puzzle-piece"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>Problem Solving</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+              <div class="skill-row" data-level="85"><span class="skill-row-icon"><i class="fas fa-cubes"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>OOP</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+              <div class="skill-row" data-level="82"><span class="skill-row-icon"><i class="fas fa-chart-line"></i></span><div class="skill-row-body"><div class="skill-row-top"><span>Algorithms</span><span class="skill-row-pct">0%</span></div><div class="skill-row-track"><div class="skill-row-fill"></div></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">// projects</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card glass reveal">
+            <div class="project-icon"><i class="fas fa-robot"></i></div>
+            <h3>AI-Powered Chatbot</h3>
+            <p>
+              Developed an AI-powered chatbot using Python and NLP techniques to handle user
+              queries with API-based response generation and dynamic input processing.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>NLP</span>
+              <span>APIs</span>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-icon"><i class="fas fa-users"></i></div>
+            <h3>Student Management System</h3>
+            <p>
+              Built a Student Management System using C++ with file handling and CRUD operations
+              for efficient data management and retrieval.
+            </p>
+            <div class="project-tech">
+              <span>C++</span>
+              <span>File Handling</span>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-icon"><i class="fas fa-laptop"></i></div>
+            <h3>Responsive Portfolio Website</h3>
+            <p>
+              Developed a responsive personal portfolio website using HTML, CSS, JavaScript, and
+              AI-assisted design tools.
+            </p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </article>
+          <article class="project-card glass reveal">
+            <div class="project-icon"><i class="fas fa-share-nodes"></i></div>
+            <h3>Resource Sharing Platform</h3>
+            <p>
+              Designed a resource-sharing platform prototype enabling users to share and access
+              community resources using design thinking principles.
+            </p>
+            <div class="project-tech">
+              <span>UI/UX</span>
+              <span>Design Thinking</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Internships & Certifications -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">// experience</span>
+          <h2 class="section-title">Internships & Certifications</h2>
+          <p class="section-subtitle">Industry exposure and verified learning credentials</p>
+        </div>
+
+        <div class="exp-dual reveal">
+          <div class="exp-column">
+            <h3 class="exp-column-title"><i class="fas fa-briefcase"></i> Internships</h3>
+            <div class="exp-card-list">
+              <article class="exp-hover-card glass exp-hover-current">
+                <span class="exp-current-badge">Current</span>
+                <div class="exp-hover-icon"><i class="fas fa-store"></i></div>
+                <h4>Intern</h4>
+                <p class="exp-hover-org">YugaYatra Retail OPC Limited</p>
+                <p class="exp-hover-desc">
+                  Currently interning and gaining real-world industry experience, applying technical
+                  and problem-solving skills in a professional work environment.
+                </p>
+                <div class="exp-tags"><span>Ongoing</span><span>Industry Experience</span></div>
+              </article>
+              <article class="exp-hover-card glass">
+                <div class="exp-hover-icon"><i class="fas fa-cloud"></i></div>
+                <h4>IBM Internship on AI & Cloud Technologies</h4>
+                <p class="exp-hover-org">IBM</p>
+                <p class="exp-hover-desc">AI workflows, cloud fundamentals, and enterprise technology practices.</p>
+                <div class="exp-tags"><span>AI</span><span>Cloud</span></div>
+              </article>
+              <article class="exp-hover-card glass">
+                <div class="exp-hover-icon"><i class="fas fa-code"></i></div>
+                <h4>Web Development with AI</h4>
+                <p class="exp-hover-org">Internshala</p>
+                <p class="exp-hover-desc">Modern web apps with AI-assisted tools and responsive front-end development.</p>
+                <div class="exp-tags"><span>Web Dev</span><span>AI</span></div>
+              </article>
+              <article class="exp-hover-card glass">
+                <div class="exp-hover-icon"><i class="fas fa-shield-halved"></i></div>
+                <h4>Cyber Security with AI</h4>
+                <p class="exp-hover-org">Internshala</p>
+                <p class="exp-hover-desc">Cybersecurity basics, threat awareness, and AI in security analysis.</p>
+                <div class="exp-tags"><span>Security</span><span>AI</span></div>
+              </article>
+            </div>
+          </div>
+          <div class="exp-column">
+            <h3 class="exp-column-title"><i class="fas fa-certificate"></i> Certifications</h3>
+            <div class="exp-card-list">
+              <article class="exp-hover-card glass exp-hover-gold">
+                <div class="exp-hover-icon gold"><i class="fas fa-medal"></i></div>
+                <h4>Gold Medal in Java Programming</h4>
+                <p class="exp-hover-org">NPTEL Swayam</p>
+                <p class="exp-hover-desc">Top performance in NPTEL Java — OOP, logic, and application development.</p>
+              </article>
+              <article class="exp-hover-card glass">
+                <div class="exp-hover-icon"><i class="fas fa-building"></i></div>
+                <h4>Deloitte Cyber Job Simulation</h4>
+                <p class="exp-hover-org">Deloitte</p>
+                <p class="exp-hover-desc">Real-world cybersecurity scenarios and professional decision-making.</p>
+              </article>
+              <article class="exp-hover-card glass">
+                <div class="exp-hover-icon"><i class="fas fa-book"></i></div>
+                <h4>C for Everybody</h4>
+                <p class="exp-hover-org">Udemy</p>
+                <p class="exp-hover-desc">Foundational C programming, memory concepts, and problem-solving.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section achievements" id="achievements">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">// achievements</span>
+          <h2 class="section-title">Achievements & Activities</h2>
+          <p class="section-subtitle">Milestones, community involvement, and creative contributions</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="timeline-content glass">
+              <span class="timeline-date">2024</span>
+              <h3>Finalist – Code Sprint 2024 Hackathon</h3>
+              <p>Competed and reached finals in a competitive coding hackathon, showcasing strong problem-solving under pressure.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="timeline-content glass">
+              <span class="timeline-date">Present</span>
+              <h3>Active Member – TechVerse Coding Club</h3>
+              <p>Participating in coding events, workshops, and peer learning sessions to grow collaboratively with fellow developers.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker">
+              <i class="fas fa-venus"></i>
+            </div>
+            <div class="timeline-content glass">
+              <span class="timeline-date">Present</span>
+              <h3>Member – Women in Tech Hyderabad</h3>
+              <p>Engaging with the tech community and professional development initiatives that support women in technology.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <div class="timeline-content glass">
+              <span class="timeline-date">Ongoing</span>
+              <h3>Event Volunteer – College Fest & Hackathons</h3>
+              <p>Supporting technical events and fostering collaborative learning environments on campus.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker">
+              <i class="fas fa-video"></i>
+            </div>
+            <div class="timeline-content glass">
+              <span class="timeline-date">Ongoing</span>
+              <h3>Tech Vlogger & Occasional Medium Writer</h3>
+              <p>Sharing knowledge through tech videos and technical blog articles to help others learn and stay curious.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">// contact</span>
+          <h2 class="section-title">Get In Touch</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p class="contact-intro">
+              I'm open to internships, collaborations, and tech opportunities.
+              Feel free to reach out!
+            </p>
+            <div class="contact-details">
+              <a href="mailto:sraddhakanuparthy@email.com" class="contact-detail">
+                <i class="fas fa-envelope"></i>
+                <span>sraddhakanuparthy@email.com</span>
+              </a>
+              <a href="tel:+918179272672" class="contact-detail">
+                <i class="fas fa-phone"></i>
+                <span>+91-8179272672</span>
+              </a>
+              <div class="contact-detail">
+                <i class="fas fa-location-dot"></i>
+                <span>Hyderabad, Telangana</span>
+              </div>
+            </div>
+            <div class="contact-social">
+              <a
+                href="https://www.linkedin.com/in/sraddha-kanuparthy-27b905382/"
+                class="social-btn social-btn-linkedin"
+                aria-label="Connect on LinkedIn"
+                title="LinkedIn Profile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin-in"></i> Connect on LinkedIn
+              </a>
+            </div>
+          </div>
+          <form class="contact-form glass reveal" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-social">
+        <a
+          href="https://www.linkedin.com/in/sraddha-kanuparthy-27b905382/"
+          class="footer-icon"
+          aria-label="LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+        ><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:sraddhakanuparthy@email.com" class="footer-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="footer-copy">© 2026 Sraddha Kanuparthy. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
